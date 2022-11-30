@@ -1,0 +1,129 @@
+:root{
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    
+    position: relative;
+}
+
+.section{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.first--section{
+    background-image: url(../img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    align-items: center;
+}
+
+.container{
+    width: 560px;
+    margin: 0 6em;
+}
+
+.container__title{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__img{
+    margin: 1em 0 3em 0;
+}
+
+.container__button{
+    background-color: var(--botao-azul);
+    display: block;
+    padding: 1em;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.container__button--secondary{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.container__text{
+    font-size: 16px;
+    color: var(--cinza-secundario);
+    margin-bottom: 1em;
+}
+
+.second{
+    margin: 0 12em;
+    align-items: center;
+}
+
+.container--secondary{
+    padding: 2em;
+}
+
+.container__title--secondary{
+    margin-bottom: 0.5em;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.container__button--third{
+    display: inline-block;
+}
+
+.screen__img{
+    width: 80%;
+}
+
+.devices{
+    text-align: center;
+}
+
+.devices__list{
+    display: flex;
+    justify-content: center;
+    margin: 3.5em 0 12em 0;
+}
+
+.devices__items{
+    margin: 0 1.3em;
+}
+
+footer{
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.terms__list{
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.terms__list--items a{
+    margin: 0 1em;
+}
+
+.terms__list--items a:hover{
+    color: var(--botao-azul);
+}
+
+.container__text--final{
+    font-size: 14px;
+}
+
+.developer{
+    color: var(--cinza-secundario);
+    position: absolute;
+    left: 43%;
+    top: 101.3%;
+}
